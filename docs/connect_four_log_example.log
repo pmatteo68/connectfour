@@ -1,0 +1,1041 @@
+2026-10-20 13:44:24.697 [MainThread] INFO __main__:29 - ============================================================
+2026-10-20 13:44:24.697 [MainThread] INFO __main__:30 - Connect Four  v. 1.0.0  --  starting
+2026-10-20 13:44:24.698 [MainThread] INFO __main__:31 - Python 3.14.7  |  platform: win32
+2026-10-20 13:44:24.698 [MainThread] DEBUG ai_engine:20 - Loading AI engine: ai_engines.minimax_alphabeta
+2026-10-20 13:44:24.700 [MainThread] DEBUG ai_engine:23 - AI engine loaded: Minimax Alpha-Beta (depth 6)
+2026-10-20 13:44:24.700 [MainThread] INFO __main__:32 - AI: Minimax Alpha-Beta (depth 6)  |  Skin: Default
+2026-10-20 13:44:24.709 [MainThread] INFO __main__:33 - Board defaults: 7x6  connect=4  discs=21  autoplay=True
+2026-10-20 13:44:24.710 [MainThread] INFO __main__:39 - ============================================================
+2026-10-20 13:44:24.900 [MainThread] DEBUG matplotlib:347 - matplotlib data path: C:\Users\user001\Downloads\tmp\Forza4\connect_four_python\v1.0.0\myenv\Lib\site-packages\matplotlib\mpl-data
+2026-10-20 13:44:24.904 [MainThread] DEBUG matplotlib:347 - CONFIGDIR=C:\Users\user001\AppData\Local\matplotlib
+2026-10-20 13:44:24.905 [MainThread] DEBUG matplotlib:1567 - interactive is False
+2026-10-20 13:44:24.905 [MainThread] DEBUG matplotlib:1568 - platform is win32
+2026-10-20 13:44:24.935 [MainThread] DEBUG matplotlib:347 - CACHEDIR=C:\Users\user001\AppData\Local\matplotlib
+2026-10-20 13:44:24.937 [MainThread] DEBUG matplotlib.font_manager:1844 - Using fontManager instance from C:\Users\user001\AppData\Local\matplotlib\fontlist-v3.11.0.json
+2026-10-20 13:44:25.205 [MainThread] DEBUG ui_main:249 - Navigating to start screen
+2026-10-20 13:44:28.661 [MainThread] DEBUG ui_main:600 - Start new game: cols=7 rows=6 connect=4 discs=21 first=human autoplay=True
+2026-10-20 13:44:28.661 [MainThread] DEBUG game_logic:221 - GameState init: cols=7 rows=6 connect=4 discs=21 first=1
+2026-10-20 13:44:28.662 [MainThread] DEBUG ui_main:261 - Navigating to game screen (human_player=None, autoplay=True)
+2026-10-20 13:44:28.677 [MainThread] DEBUG ui_main:282 - Autoplay engines created for both players
+2026-10-20 13:44:28.983 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:29.643 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=6
+2026-10-20 13:44:29.679 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-7
+2026-10-20 13:44:29.711 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-7
+2026-10-20 13:44:29.752 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-10
+2026-10-20 13:44:29.795 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-10
+2026-10-20 13:44:29.839 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-20
+2026-10-20 13:44:29.882 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-20
+2026-10-20 13:44:29.883 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=3 (score=6)
+2026-10-20 13:44:29.883 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 3 -> row 5 (disc #1)
+2026-10-20 13:44:29.883 [MainThread] DEBUG game_stats:48 - Stats: move #1 player=1 col=3 elapsed=1.21s pos_score=0
+2026-10-20 13:44:29.884 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:29.884 [MainThread] DEBUG ui_board:122 - animate_drop col=3 landing=5 player=1
+2026-10-20 13:44:30.245 [MainThread] DEBUG ui_board:83 - set_disc row=5 col=3 player=1
+2026-10-20 13:44:30.558 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:31.291 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-47
+2026-10-20 13:44:31.355 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-57
+2026-10-20 13:44:31.411 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-57
+2026-10-20 13:44:31.494 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-60
+2026-10-20 13:44:31.565 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-60
+2026-10-20 13:44:31.630 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-110
+2026-10-20 13:44:31.694 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-110
+2026-10-20 13:44:31.694 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=3 (score=-47)
+2026-10-20 13:44:31.695 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 3 -> row 4 (disc #1)
+2026-10-20 13:44:31.695 [MainThread] DEBUG game_stats:48 - Stats: move #2 player=2 col=3 elapsed=1.81s pos_score=0
+2026-10-20 13:44:31.695 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:31.696 [MainThread] DEBUG ui_board:122 - animate_drop col=3 landing=4 player=2
+2026-10-20 13:44:32.002 [MainThread] DEBUG ui_board:83 - set_disc row=4 col=3 player=2
+2026-10-20 13:44:32.314 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:32.987 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-4
+2026-10-20 13:44:33.052 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-17
+2026-10-20 13:44:33.109 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-17
+2026-10-20 13:44:33.161 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-24
+2026-10-20 13:44:33.226 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-24
+2026-10-20 13:44:33.291 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-37
+2026-10-20 13:44:33.367 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-37
+2026-10-20 13:44:33.367 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=3 (score=-4)
+2026-10-20 13:44:33.367 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 3 -> row 3 (disc #2)
+2026-10-20 13:44:33.368 [MainThread] DEBUG game_stats:48 - Stats: move #3 player=1 col=3 elapsed=1.67s pos_score=0
+2026-10-20 13:44:33.368 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:33.368 [MainThread] DEBUG ui_board:122 - animate_drop col=3 landing=3 player=1
+2026-10-20 13:44:33.615 [MainThread] DEBUG ui_board:83 - set_disc row=3 col=3 player=1
+2026-10-20 13:44:33.931 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:34.650 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-104
+2026-10-20 13:44:34.763 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-77
+2026-10-20 13:44:34.889 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-77
+2026-10-20 13:44:34.999 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-107
+2026-10-20 13:44:35.088 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-107
+2026-10-20 13:44:35.183 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-117
+2026-10-20 13:44:35.270 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-117
+2026-10-20 13:44:35.271 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=2 (score=-77)
+2026-10-20 13:44:35.271 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 2 -> row 5 (disc #2)
+2026-10-20 13:44:35.271 [MainThread] DEBUG game_stats:48 - Stats: move #4 player=2 col=2 elapsed=1.90s pos_score=-10
+2026-10-20 13:44:35.272 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:35.272 [MainThread] DEBUG ui_board:122 - animate_drop col=2 landing=5 player=2
+2026-10-20 13:44:35.637 [MainThread] DEBUG ui_board:83 - set_disc row=5 col=2 player=2
+2026-10-20 13:44:35.938 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:36.592 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-31
+2026-10-20 13:44:36.656 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=6
+2026-10-20 13:44:36.755 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-14
+2026-10-20 13:44:36.836 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-64
+2026-10-20 13:44:36.933 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-14
+2026-10-20 13:44:37.005 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-64
+2026-10-20 13:44:37.069 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-74
+2026-10-20 13:44:37.069 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=2 (score=6)
+2026-10-20 13:44:37.070 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 2 -> row 4 (disc #3)
+2026-10-20 13:44:37.070 [MainThread] DEBUG game_stats:48 - Stats: move #5 player=1 col=2 elapsed=1.80s pos_score=20
+2026-10-20 13:44:37.070 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:37.070 [MainThread] DEBUG ui_board:122 - animate_drop col=2 landing=4 player=1
+2026-10-20 13:44:37.370 [MainThread] DEBUG ui_board:83 - set_disc row=4 col=2 player=1
+2026-10-20 13:44:37.686 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:38.416 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-104
+2026-10-20 13:44:38.482 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-104
+2026-10-20 13:44:38.544 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-144
+2026-10-20 13:44:38.592 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-144
+2026-10-20 13:44:38.646 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-134
+2026-10-20 13:44:38.692 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-144
+2026-10-20 13:44:38.736 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-137
+2026-10-20 13:44:38.736 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=3 (score=-104)
+2026-10-20 13:44:38.737 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 3 -> row 2 (disc #3)
+2026-10-20 13:44:38.737 [MainThread] DEBUG game_stats:48 - Stats: move #6 player=2 col=3 elapsed=1.67s pos_score=20
+2026-10-20 13:44:38.737 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:38.737 [MainThread] DEBUG ui_board:122 - animate_drop col=3 landing=2 player=2
+2026-10-20 13:44:38.913 [MainThread] DEBUG ui_board:83 - set_disc row=2 col=3 player=2
+2026-10-20 13:44:39.229 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:39.923 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-61
+2026-10-20 13:44:40.016 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=69
+2026-10-20 13:44:40.138 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-24
+2026-10-20 13:44:40.229 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-24
+2026-10-20 13:44:40.368 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-34
+2026-10-20 13:44:40.469 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-14
+2026-10-20 13:44:40.566 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-44
+2026-10-20 13:44:40.567 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=2 (score=69)
+2026-10-20 13:44:40.567 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 2 -> row 3 (disc #4)
+2026-10-20 13:44:40.568 [MainThread] DEBUG game_stats:48 - Stats: move #7 player=1 col=2 elapsed=1.83s pos_score=60
+2026-10-20 13:44:40.568 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:40.568 [MainThread] DEBUG ui_board:122 - animate_drop col=2 landing=3 player=1
+2026-10-20 13:44:40.819 [MainThread] DEBUG ui_board:83 - set_disc row=3 col=2 player=1
+2026-10-20 13:44:41.120 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:41.783 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-121
+2026-10-20 13:44:41.890 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-91
+2026-10-20 13:44:41.933 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-374
+2026-10-20 13:44:42.017 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-144
+2026-10-20 13:44:42.094 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-134
+2026-10-20 13:44:42.181 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-184
+2026-10-20 13:44:42.253 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-144
+2026-10-20 13:44:42.253 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=2 (score=-91)
+2026-10-20 13:44:42.254 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 2 -> row 2 (disc #4)
+2026-10-20 13:44:42.254 [MainThread] DEBUG game_stats:48 - Stats: move #8 player=2 col=2 elapsed=1.69s pos_score=20
+2026-10-20 13:44:42.254 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:42.254 [MainThread] DEBUG ui_board:122 - animate_drop col=2 landing=2 player=2
+2026-10-20 13:44:42.432 [MainThread] DEBUG ui_board:83 - set_disc row=2 col=2 player=2
+2026-10-20 13:44:42.735 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:43.452 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=29
+2026-10-20 13:44:43.541 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=9
+2026-10-20 13:44:43.691 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-4
+2026-10-20 13:44:43.764 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=9
+2026-10-20 13:44:43.943 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-4
+2026-10-20 13:44:44.036 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-4
+2026-10-20 13:44:44.152 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=6
+2026-10-20 13:44:44.152 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=3 (score=29)
+2026-10-20 13:44:44.153 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 3 -> row 1 (disc #5)
+2026-10-20 13:44:44.153 [MainThread] DEBUG game_stats:48 - Stats: move #9 player=1 col=3 elapsed=1.90s pos_score=20
+2026-10-20 13:44:44.153 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:44.153 [MainThread] DEBUG ui_board:122 - animate_drop col=3 landing=1 player=1
+2026-10-20 13:44:44.266 [MainThread] DEBUG ui_board:83 - set_disc row=1 col=3 player=1
+2026-10-20 13:44:44.577 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:45.244 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-91
+2026-10-20 13:44:45.318 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-91
+2026-10-20 13:44:45.392 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-224
+2026-10-20 13:44:45.546 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-64
+2026-10-20 13:44:45.644 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-104
+2026-10-20 13:44:45.751 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-164
+2026-10-20 13:44:45.822 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-91
+2026-10-20 13:44:45.822 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=1 (score=-64)
+2026-10-20 13:44:45.822 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 1 -> row 5 (disc #5)
+2026-10-20 13:44:45.822 [MainThread] DEBUG game_stats:48 - Stats: move #10 player=2 col=1 elapsed=1.67s pos_score=10
+2026-10-20 13:44:45.823 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:45.823 [MainThread] DEBUG ui_board:122 - animate_drop col=1 landing=5 player=2
+2026-10-20 13:44:46.195 [MainThread] DEBUG ui_board:83 - set_disc row=5 col=1 player=2
+2026-10-20 13:44:46.506 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:47.163 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=22
+2026-10-20 13:44:47.205 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=39
+2026-10-20 13:44:47.316 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-1
+2026-10-20 13:44:47.412 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=9
+2026-10-20 13:44:47.545 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-61
+2026-10-20 13:44:47.618 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=2
+2026-10-20 13:44:47.731 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:44:47.732 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=2 (score=39)
+2026-10-20 13:44:47.732 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 2 -> row 1 (disc #6)
+2026-10-20 13:44:47.732 [MainThread] DEBUG game_stats:48 - Stats: move #11 player=1 col=2 elapsed=1.91s pos_score=40
+2026-10-20 13:44:47.733 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:47.733 [MainThread] DEBUG ui_board:122 - animate_drop col=2 landing=1 player=1
+2026-10-20 13:44:47.858 [MainThread] DEBUG ui_board:83 - set_disc row=1 col=2 player=1
+2026-10-20 13:44:48.174 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:48.874 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=3 score=-91
+2026-10-20 13:44:48.908 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=-114
+2026-10-20 13:44:48.983 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-124
+2026-10-20 13:44:49.057 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-304
+2026-10-20 13:44:49.164 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-114
+2026-10-20 13:44:49.246 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-124
+2026-10-20 13:44:49.323 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-94
+2026-10-20 13:44:49.323 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=3 (score=-91)
+2026-10-20 13:44:49.324 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 3 -> row 0 (disc #6)
+2026-10-20 13:44:49.324 [MainThread] DEBUG game_stats:48 - Stats: move #12 player=2 col=3 elapsed=1.59s pos_score=40
+2026-10-20 13:44:49.324 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:49.324 [MainThread] DEBUG ui_board:83 - set_disc row=0 col=3 player=2
+2026-10-20 13:44:49.638 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:50.298 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=2 score=39
+2026-10-20 13:44:50.342 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=19
+2026-10-20 13:44:50.377 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=19
+2026-10-20 13:44:50.428 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=9
+2026-10-20 13:44:50.458 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=19
+2026-10-20 13:44:50.491 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=29
+2026-10-20 13:44:50.491 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=2 (score=39)
+2026-10-20 13:44:50.491 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 2 -> row 0 (disc #7)
+2026-10-20 13:44:50.492 [MainThread] DEBUG game_stats:48 - Stats: move #13 player=1 col=2 elapsed=1.17s pos_score=50
+2026-10-20 13:44:50.492 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:50.492 [MainThread] DEBUG ui_board:83 - set_disc row=0 col=2 player=1
+2026-10-20 13:44:50.807 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:51.471 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-141
+2026-10-20 13:44:51.495 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-311
+2026-10-20 13:44:51.556 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-121
+2026-10-20 13:44:51.616 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-131
+2026-10-20 13:44:51.679 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-101
+2026-10-20 13:44:51.679 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=6 (score=-101)
+2026-10-20 13:44:51.680 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 6 -> row 5 (disc #7)
+2026-10-20 13:44:51.680 [MainThread] DEBUG game_stats:48 - Stats: move #14 player=2 col=6 elapsed=1.19s pos_score=40
+2026-10-20 13:44:51.680 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:51.680 [MainThread] DEBUG ui_board:122 - animate_drop col=6 landing=5 player=2
+2026-10-20 13:44:52.046 [MainThread] DEBUG ui_board:83 - set_disc row=5 col=6 player=2
+2026-10-20 13:44:52.360 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:53.020 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-41
+2026-10-20 13:44:53.058 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=19
+2026-10-20 13:44:53.113 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-51
+2026-10-20 13:44:53.166 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=9
+2026-10-20 13:44:53.232 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=29
+2026-10-20 13:44:53.232 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=6 (score=29)
+2026-10-20 13:44:53.233 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 6 -> row 4 (disc #8)
+2026-10-20 13:44:53.233 [MainThread] DEBUG game_stats:48 - Stats: move #15 player=1 col=6 elapsed=1.55s pos_score=50
+2026-10-20 13:44:53.234 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:53.234 [MainThread] DEBUG ui_board:122 - animate_drop col=6 landing=4 player=1
+2026-10-20 13:44:53.538 [MainThread] DEBUG ui_board:83 - set_disc row=4 col=6 player=1
+2026-10-20 13:44:53.851 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:54.516 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-131
+2026-10-20 13:44:54.543 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-311
+2026-10-20 13:44:54.605 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-131
+2026-10-20 13:44:54.672 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-131
+2026-10-20 13:44:54.734 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-121
+2026-10-20 13:44:54.735 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=6 (score=-121)
+2026-10-20 13:44:54.735 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 6 -> row 3 (disc #8)
+2026-10-20 13:44:54.736 [MainThread] DEBUG game_stats:48 - Stats: move #16 player=2 col=6 elapsed=1.50s pos_score=40
+2026-10-20 13:44:54.736 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:54.736 [MainThread] DEBUG ui_board:122 - animate_drop col=6 landing=3 player=2
+2026-10-20 13:44:54.983 [MainThread] DEBUG ui_board:83 - set_disc row=3 col=6 player=2
+2026-10-20 13:44:55.297 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:55.951 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-51
+2026-10-20 13:44:55.987 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=19
+2026-10-20 13:44:56.053 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-41
+2026-10-20 13:44:56.108 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=29
+2026-10-20 13:44:56.157 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=29
+2026-10-20 13:44:56.157 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=0 (score=29)
+2026-10-20 13:44:56.157 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 0 -> row 5 (disc #9)
+2026-10-20 13:44:56.158 [MainThread] DEBUG game_stats:48 - Stats: move #17 player=1 col=0 elapsed=1.42s pos_score=40
+2026-10-20 13:44:56.158 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:56.158 [MainThread] DEBUG ui_board:122 - animate_drop col=0 landing=5 player=1
+2026-10-20 13:44:56.525 [MainThread] DEBUG ui_board:83 - set_disc row=5 col=0 player=1
+2026-10-20 13:44:56.828 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:57.493 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-131
+2026-10-20 13:44:57.518 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-1000000
+2026-10-20 13:44:57.581 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-131
+2026-10-20 13:44:57.646 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-131
+2026-10-20 13:44:57.715 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-111
+2026-10-20 13:44:57.715 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=6 (score=-111)
+2026-10-20 13:44:57.716 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 6 -> row 2 (disc #9)
+2026-10-20 13:44:57.716 [MainThread] DEBUG game_stats:48 - Stats: move #18 player=2 col=6 elapsed=1.56s pos_score=20
+2026-10-20 13:44:57.716 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:57.716 [MainThread] DEBUG ui_board:122 - animate_drop col=6 landing=2 player=2
+2026-10-20 13:44:57.901 [MainThread] DEBUG ui_board:83 - set_disc row=2 col=6 player=2
+2026-10-20 13:44:58.217 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:44:58.877 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-61
+2026-10-20 13:44:58.918 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=9
+2026-10-20 13:44:58.971 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-81
+2026-10-20 13:44:59.033 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=9
+2026-10-20 13:44:59.084 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-41
+2026-10-20 13:44:59.084 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=1 (score=9)
+2026-10-20 13:44:59.085 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 1 -> row 4 (disc #10)
+2026-10-20 13:44:59.085 [MainThread] DEBUG game_stats:48 - Stats: move #19 player=1 col=1 elapsed=1.37s pos_score=20
+2026-10-20 13:44:59.085 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:44:59.085 [MainThread] DEBUG ui_board:122 - animate_drop col=1 landing=4 player=1
+2026-10-20 13:44:59.395 [MainThread] DEBUG ui_board:83 - set_disc row=4 col=1 player=1
+2026-10-20 13:44:59.709 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:00.350 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-291
+2026-10-20 13:45:00.404 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-1
+2026-10-20 13:45:00.451 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-291
+2026-10-20 13:45:00.469 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-1000002
+2026-10-20 13:45:00.477 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-1
+2026-10-20 13:45:00.477 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=1 (score=-1)
+2026-10-20 13:45:00.478 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 1 -> row 3 (disc #10)
+2026-10-20 13:45:00.478 [MainThread] DEBUG game_stats:48 - Stats: move #20 player=2 col=1 elapsed=1.39s pos_score=-10
+2026-10-20 13:45:00.478 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:00.478 [MainThread] DEBUG ui_board:122 - animate_drop col=1 landing=3 player=2
+2026-10-20 13:45:00.728 [MainThread] DEBUG ui_board:83 - set_disc row=3 col=1 player=2
+2026-10-20 13:45:01.029 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:01.665 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-181
+2026-10-20 13:45:01.718 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-1
+2026-10-20 13:45:01.769 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-151
+2026-10-20 13:45:01.807 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-71
+2026-10-20 13:45:01.853 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-61
+2026-10-20 13:45:01.853 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=1 (score=-1)
+2026-10-20 13:45:01.853 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 1 -> row 2 (disc #11)
+2026-10-20 13:45:01.854 [MainThread] DEBUG game_stats:48 - Stats: move #21 player=1 col=1 elapsed=1.38s pos_score=10
+2026-10-20 13:45:01.854 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:01.854 [MainThread] DEBUG ui_board:122 - animate_drop col=1 landing=2 player=1
+2026-10-20 13:45:02.038 [MainThread] DEBUG ui_board:83 - set_disc row=2 col=1 player=1
+2026-10-20 13:45:02.353 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:02.996 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-191
+2026-10-20 13:45:03.056 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-11
+2026-10-20 13:45:03.118 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-191
+2026-10-20 13:45:03.155 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-191
+2026-10-20 13:45:03.164 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-11
+2026-10-20 13:45:03.164 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=1 (score=-11)
+2026-10-20 13:45:03.164 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 1 -> row 1 (disc #11)
+2026-10-20 13:45:03.165 [MainThread] DEBUG game_stats:48 - Stats: move #22 player=2 col=1 elapsed=1.31s pos_score=-10
+2026-10-20 13:45:03.165 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:03.165 [MainThread] DEBUG ui_board:122 - animate_drop col=1 landing=1 player=2
+2026-10-20 13:45:03.283 [MainThread] DEBUG ui_board:83 - set_disc row=1 col=1 player=2
+2026-10-20 13:45:03.596 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:04.241 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-91
+2026-10-20 13:45:04.268 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-81
+2026-10-20 13:45:04.321 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-111
+2026-10-20 13:45:04.376 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-61
+2026-10-20 13:45:04.412 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-71
+2026-10-20 13:45:04.412 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=0 (score=-61)
+2026-10-20 13:45:04.413 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 0 -> row 4 (disc #12)
+2026-10-20 13:45:04.413 [MainThread] DEBUG game_stats:48 - Stats: move #23 player=1 col=0 elapsed=1.25s pos_score=0
+2026-10-20 13:45:04.413 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:04.413 [MainThread] DEBUG ui_board:122 - animate_drop col=0 landing=4 player=1
+2026-10-20 13:45:04.721 [MainThread] DEBUG ui_board:83 - set_disc row=4 col=0 player=1
+2026-10-20 13:45:05.022 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:05.674 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-101
+2026-10-20 13:45:05.702 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-11
+2026-10-20 13:45:05.768 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-81
+2026-10-20 13:45:05.832 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-1
+2026-10-20 13:45:05.842 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-1
+2026-10-20 13:45:05.842 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=0 (score=-1)
+2026-10-20 13:45:05.843 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 0 -> row 3 (disc #12)
+2026-10-20 13:45:05.843 [MainThread] DEBUG game_stats:48 - Stats: move #24 player=2 col=0 elapsed=1.43s pos_score=-10
+2026-10-20 13:45:05.843 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:05.843 [MainThread] DEBUG ui_board:122 - animate_drop col=0 landing=3 player=2
+2026-10-20 13:45:06.089 [MainThread] DEBUG ui_board:83 - set_disc row=3 col=0 player=2
+2026-10-20 13:45:06.390 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:07.051 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-91
+2026-10-20 13:45:07.077 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=1 score=-81
+2026-10-20 13:45:07.140 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-121
+2026-10-20 13:45:07.181 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-81
+2026-10-20 13:45:07.211 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-81
+2026-10-20 13:45:07.211 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=1 (score=-81)
+2026-10-20 13:45:07.212 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 1 -> row 0 (disc #13)
+2026-10-20 13:45:07.212 [MainThread] DEBUG game_stats:48 - Stats: move #25 player=1 col=1 elapsed=1.37s pos_score=-10
+2026-10-20 13:45:07.212 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:07.213 [MainThread] DEBUG ui_board:83 - set_disc row=0 col=1 player=1
+2026-10-20 13:45:07.520 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:08.155 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-21
+2026-10-20 13:45:08.185 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-11
+2026-10-20 13:45:08.218 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=9
+2026-10-20 13:45:08.225 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:45:08.225 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=0 (score=9)
+2026-10-20 13:45:08.226 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 0 -> row 2 (disc #13)
+2026-10-20 13:45:08.226 [MainThread] DEBUG game_stats:48 - Stats: move #26 player=2 col=0 elapsed=1.01s pos_score=-20
+2026-10-20 13:45:08.226 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:08.226 [MainThread] DEBUG ui_board:122 - animate_drop col=0 landing=2 player=2
+2026-10-20 13:45:08.406 [MainThread] DEBUG ui_board:83 - set_disc row=2 col=0 player=2
+2026-10-20 13:45:08.716 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:09.344 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-101
+2026-10-20 13:45:09.370 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-161
+2026-10-20 13:45:09.399 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-81
+2026-10-20 13:45:09.416 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-81
+2026-10-20 13:45:09.417 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=0 (score=-81)
+2026-10-20 13:45:09.417 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 0 -> row 1 (disc #14)
+2026-10-20 13:45:09.417 [MainThread] DEBUG game_stats:48 - Stats: move #27 player=1 col=0 elapsed=1.19s pos_score=-10
+2026-10-20 13:45:09.417 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:09.417 [MainThread] DEBUG ui_board:122 - animate_drop col=0 landing=1 player=1
+2026-10-20 13:45:09.545 [MainThread] DEBUG ui_board:83 - set_disc row=1 col=0 player=1
+2026-10-20 13:45:09.861 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:10.504 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-91
+2026-10-20 13:45:10.536 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-11
+2026-10-20 13:45:10.549 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-11
+2026-10-20 13:45:10.555 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-11
+2026-10-20 13:45:10.555 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=5 (score=-11)
+2026-10-20 13:45:10.555 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 5 -> row 5 (disc #14)
+2026-10-20 13:45:10.556 [MainThread] DEBUG game_stats:48 - Stats: move #28 player=2 col=5 elapsed=1.14s pos_score=-10
+2026-10-20 13:45:10.556 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:10.556 [MainThread] DEBUG ui_board:122 - animate_drop col=5 landing=5 player=2
+2026-10-20 13:45:10.924 [MainThread] DEBUG ui_board:83 - set_disc row=5 col=5 player=2
+2026-10-20 13:45:11.238 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:11.863 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-221
+2026-10-20 13:45:11.885 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-71
+2026-10-20 13:45:11.895 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-221
+2026-10-20 13:45:11.911 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-71
+2026-10-20 13:45:11.911 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=5 (score=-71)
+2026-10-20 13:45:11.912 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 5 -> row 4 (disc #15)
+2026-10-20 13:45:11.912 [MainThread] DEBUG game_stats:48 - Stats: move #29 player=1 col=5 elapsed=1.36s pos_score=0
+2026-10-20 13:45:11.912 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:11.912 [MainThread] DEBUG ui_board:122 - animate_drop col=5 landing=4 player=1
+2026-10-20 13:45:12.222 [MainThread] DEBUG ui_board:83 - set_disc row=4 col=5 player=1
+2026-10-20 13:45:12.534 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:13.164 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-91
+2026-10-20 13:45:13.182 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=9
+2026-10-20 13:45:13.193 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-91
+2026-10-20 13:45:13.198 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:45:13.199 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=5 (score=9)
+2026-10-20 13:45:13.199 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 5 -> row 3 (disc #15)
+2026-10-20 13:45:13.199 [MainThread] DEBUG game_stats:48 - Stats: move #30 player=2 col=5 elapsed=1.29s pos_score=-30
+2026-10-20 13:45:13.200 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:13.200 [MainThread] DEBUG ui_board:122 - animate_drop col=5 landing=3 player=2
+2026-10-20 13:45:13.446 [MainThread] DEBUG ui_board:83 - set_disc row=3 col=5 player=2
+2026-10-20 13:45:13.748 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:14.379 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-1000000
+2026-10-20 13:45:14.396 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=-1
+2026-10-20 13:45:14.407 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-191
+2026-10-20 13:45:14.427 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=-91
+2026-10-20 13:45:14.427 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=5 (score=-1)
+2026-10-20 13:45:14.428 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 5 -> row 2 (disc #16)
+2026-10-20 13:45:14.428 [MainThread] DEBUG game_stats:48 - Stats: move #31 player=1 col=5 elapsed=1.23s pos_score=10
+2026-10-20 13:45:14.428 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:14.428 [MainThread] DEBUG ui_board:122 - animate_drop col=5 landing=2 player=1
+2026-10-20 13:45:14.609 [MainThread] DEBUG ui_board:83 - set_disc row=2 col=5 player=1
+2026-10-20 13:45:14.924 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:15.551 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-291
+2026-10-20 13:45:15.562 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=9
+2026-10-20 13:45:15.573 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-291
+2026-10-20 13:45:15.578 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:45:15.578 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=5 (score=9)
+2026-10-20 13:45:15.579 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 5 -> row 1 (disc #16)
+2026-10-20 13:45:15.579 [MainThread] DEBUG game_stats:48 - Stats: move #32 player=2 col=5 elapsed=1.15s pos_score=-10
+2026-10-20 13:45:15.579 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:15.579 [MainThread] DEBUG ui_board:122 - animate_drop col=5 landing=1 player=2
+2026-10-20 13:45:15.703 [MainThread] DEBUG ui_board:83 - set_disc row=1 col=5 player=2
+2026-10-20 13:45:16.017 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:16.644 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=-91
+2026-10-20 13:45:16.649 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=5 score=9
+2026-10-20 13:45:16.656 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=-91
+2026-10-20 13:45:16.667 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:45:16.668 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=5 (score=9)
+2026-10-20 13:45:16.668 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 5 -> row 0 (disc #17)
+2026-10-20 13:45:16.668 [MainThread] DEBUG game_stats:48 - Stats: move #33 player=1 col=5 elapsed=1.09s pos_score=-10
+2026-10-20 13:45:16.669 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:16.669 [MainThread] DEBUG ui_board:83 - set_disc row=0 col=5 player=1
+2026-10-20 13:45:16.983 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:17.609 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=9
+2026-10-20 13:45:17.611 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=9
+2026-10-20 13:45:17.612 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:45:17.612 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=4 (score=9)
+2026-10-20 13:45:17.612 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 4 -> row 5 (disc #17)
+2026-10-20 13:45:17.613 [MainThread] DEBUG game_stats:48 - Stats: move #34 player=2 col=4 elapsed=0.94s pos_score=-10
+2026-10-20 13:45:17.613 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:17.613 [MainThread] DEBUG ui_board:122 - animate_drop col=4 landing=5 player=2
+2026-10-20 13:45:17.985 [MainThread] DEBUG ui_board:83 - set_disc row=5 col=4 player=2
+2026-10-20 13:45:18.297 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:18.920 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=9
+2026-10-20 13:45:18.923 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=9
+2026-10-20 13:45:18.927 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:45:18.927 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=4 (score=9)
+2026-10-20 13:45:18.927 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 4 -> row 4 (disc #18)
+2026-10-20 13:45:18.927 [MainThread] DEBUG game_stats:48 - Stats: move #35 player=1 col=4 elapsed=1.31s pos_score=-10
+2026-10-20 13:45:18.928 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:18.928 [MainThread] DEBUG ui_board:122 - animate_drop col=4 landing=4 player=1
+2026-10-20 13:45:19.235 [MainThread] DEBUG ui_board:83 - set_disc row=4 col=4 player=1
+2026-10-20 13:45:19.549 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:20.156 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=9
+2026-10-20 13:45:20.159 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=9
+2026-10-20 13:45:20.162 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=9
+2026-10-20 13:45:20.162 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=4 (score=9)
+2026-10-20 13:45:20.162 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 4 -> row 3 (disc #18)
+2026-10-20 13:45:20.163 [MainThread] DEBUG game_stats:48 - Stats: move #36 player=2 col=4 elapsed=1.24s pos_score=-10
+2026-10-20 13:45:20.164 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:20.164 [MainThread] DEBUG ui_board:122 - animate_drop col=4 landing=3 player=2
+2026-10-20 13:45:20.406 [MainThread] DEBUG ui_board:83 - set_disc row=3 col=4 player=2
+2026-10-20 13:45:20.718 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:21.335 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=0
+2026-10-20 13:45:21.336 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=0
+2026-10-20 13:45:21.339 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=0
+2026-10-20 13:45:21.339 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=4 (score=0)
+2026-10-20 13:45:21.339 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 4 -> row 2 (disc #19)
+2026-10-20 13:45:21.339 [MainThread] DEBUG game_stats:48 - Stats: move #37 player=1 col=4 elapsed=1.18s pos_score=-10
+2026-10-20 13:45:21.340 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:21.341 [MainThread] DEBUG ui_board:122 - animate_drop col=4 landing=2 player=1
+2026-10-20 13:45:21.519 [MainThread] DEBUG ui_board:83 - set_disc row=2 col=4 player=1
+2026-10-20 13:45:21.835 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:22.446 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=0
+2026-10-20 13:45:22.449 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=0
+2026-10-20 13:45:22.452 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=0
+2026-10-20 13:45:22.452 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=4 (score=0)
+2026-10-20 13:45:22.452 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 4 -> row 1 (disc #19)
+2026-10-20 13:45:22.453 [MainThread] DEBUG game_stats:48 - Stats: move #38 player=2 col=4 elapsed=1.11s pos_score=-10
+2026-10-20 13:45:22.454 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:22.454 [MainThread] DEBUG ui_board:122 - animate_drop col=4 landing=1 player=2
+2026-10-20 13:45:22.582 [MainThread] DEBUG ui_board:83 - set_disc row=1 col=4 player=2
+2026-10-20 13:45:22.892 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:23.503 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=4 score=0
+2026-10-20 13:45:23.503 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=0
+2026-10-20 13:45:23.504 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=0
+2026-10-20 13:45:23.504 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=4 (score=0)
+2026-10-20 13:45:23.504 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 4 -> row 0 (disc #20)
+2026-10-20 13:45:23.505 [MainThread] DEBUG game_stats:48 - Stats: move #39 player=1 col=4 elapsed=1.05s pos_score=-10
+2026-10-20 13:45:23.505 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:23.505 [MainThread] DEBUG ui_board:83 - set_disc row=0 col=4 player=1
+2026-10-20 13:45:23.817 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:24.431 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=0 score=0
+2026-10-20 13:45:24.432 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=0
+2026-10-20 13:45:24.432 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=0 (score=0)
+2026-10-20 13:45:24.433 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 0 -> row 0 (disc #20)
+2026-10-20 13:45:24.433 [MainThread] DEBUG game_stats:48 - Stats: move #40 player=2 col=0 elapsed=0.93s pos_score=-10
+2026-10-20 13:45:24.433 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:24.433 [MainThread] DEBUG ui_board:83 - set_disc row=0 col=0 player=2
+2026-10-20 13:45:24.743 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:25.356 [AI-P1] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=0
+2026-10-20 13:45:25.357 [AI-P1] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=6 (score=0)
+2026-10-20 13:45:25.357 [MainThread] DEBUG game_logic:248 - Player 1 drops in col 6 -> row 1 (disc #21)
+2026-10-20 13:45:25.358 [MainThread] DEBUG game_stats:48 - Stats: move #41 player=1 col=6 elapsed=0.92s pos_score=0
+2026-10-20 13:45:25.359 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:25.359 [MainThread] DEBUG ui_board:122 - animate_drop col=6 landing=1 player=1
+2026-10-20 13:45:25.480 [MainThread] DEBUG ui_board:83 - set_disc row=1 col=6 player=1
+2026-10-20 13:45:25.781 [MainThread] DEBUG ui_main:705 - Status bar: 'Machine is thinking...'
+2026-10-20 13:45:26.384 [AI-P2] DEBUG ai_engines.minimax_alphabeta:244 - AI col=6 score=0
+2026-10-20 13:45:26.384 [AI-P2] DEBUG ai_engines.minimax_alphabeta:249 - AI chose col=6 (score=0)
+2026-10-20 13:45:26.385 [MainThread] DEBUG game_logic:248 - Player 2 drops in col 6 -> row 0 (disc #21)
+2026-10-20 13:45:26.385 [MainThread] DEBUG game_logic:265 - Draw: no valid moves or disc quota reached
+2026-10-20 13:45:26.385 [MainThread] DEBUG game_stats:48 - Stats: move #42 player=2 col=6 elapsed=1.03s pos_score=0
+2026-10-20 13:45:26.385 [MainThread] DEBUG ui_main:705 - Status bar: '...'
+2026-10-20 13:45:26.385 [MainThread] DEBUG ui_board:83 - set_disc row=0 col=6 player=2
+2026-10-20 13:45:26.386 [MainThread] INFO game_stats:124 - === GAME SUMMARY ===
+2026-10-20 13:45:26.386 [MainThread] INFO game_stats:125 - [OUTCOME] result=Draw reason=draw duration=57s
+2026-10-20 13:45:26.386 [MainThread] INFO game_stats:129 - [MOVES] total=42 p1=21 p2=21
+2026-10-20 13:45:26.386 [MainThread] INFO game_stats:133 - [TIMING] avg_p1=1.39s avg_p2=1.36s
+2026-10-20 13:45:26.386 [MainThread] INFO game_stats:138 - [TRAJECTORY] pos_scores=[0, 0, 0, -10, 20, 20, 60, 20, 20, 10, 40, 40, 50, 40, 50, 40, 40, 20, 20, -10, 10, -10, 0, -10, -10, -20, -10, -10, 0, -30, 10, -10, -10, -10, -10, -10, -10, -10, -10, -10, 0, 0]
+2026-10-20 13:45:26.386 [MainThread] DEBUG ui_main:705 - Status bar: 'Draw -- board full!'
+2026-10-20 13:45:26.387 [MainThread] DEBUG ui_main:519 - Game over handler: winner=None reason=draw
+2026-10-20 13:45:27.211 [MainThread] DEBUG matplotlib.pyplot:517 - Loaded backend TkAgg version 9.0.
+2026-10-20 13:45:27.234 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.234 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.234 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.234 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.234 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 1189
+2026-10-20 13:45:27.237 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.237 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.238 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.238 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.238 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 2994
+2026-10-20 13:45:27.243 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.243 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.243 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.243 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.243 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 374
+2026-10-20 13:45:27.244 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.245 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.245 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.245 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.245 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 286
+2026-10-20 13:45:27.246 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.246 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.246 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.246 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.246 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 263
+2026-10-20 13:45:27.247 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.247 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.247 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.247 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.248 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 387
+2026-10-20 13:45:27.249 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.249 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.249 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.249 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.250 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 436
+2026-10-20 13:45:27.250 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.251 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.251 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.253 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.253 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 351
+2026-10-20 13:45:27.254 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IHDR' 16 13
+2026-10-20 13:45:27.254 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'sBIT' 41 4
+2026-10-20 13:45:27.254 [MainThread] DEBUG PIL.PngImagePlugin:813 - b'sBIT' 41 4 (unknown)
+2026-10-20 13:45:27.254 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'pHYs' 57 9
+2026-10-20 13:45:27.254 [MainThread] DEBUG PIL.PngImagePlugin:213 - STREAM b'IDAT' 78 364
+2026-10-20 13:45:27.256 [MainThread] DEBUG matplotlib.font_manager:1646 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', index=0, name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.257 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', index=0, name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.258 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.258 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.258 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', index=0, name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.258 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.258 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.258 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LastResortHE-Regular.ttf', index=0, name='Last Resort High-Efficiency', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', index=0, name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmti10.ttf', index=0, name='cmti10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-10-20 13:45:27.259 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', index=0, name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', index=0, name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', index=0, name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', index=0, name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', index=0, name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', index=0, name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.260 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.261 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.261 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-10-20 13:45:27.261 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.261 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.261 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.261 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', index=0, name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', index=0, name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=0, name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=1, name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.262 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=3, name='Nirmala Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=4, name='Nirmala Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=0, name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=1, name='NSimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.263 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegoeIcons.ttf', index=0, name='Segoe Fluent Icons', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', index=0, name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.264 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', index=0, name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI Black', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', index=0, name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+2026-10-20 13:45:27.265 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', index=0, name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', index=0, name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', index=0, name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SimsunExtG.ttf', index=0, name='SimSun-ExtG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=0, name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.266 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=1, name='PMingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=2, name='MingLiU_HKSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=3, name='MingLiU_MSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', index=0, name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', index=0, name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=0, name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.267 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=1, name='Cambria Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', index=0, name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', index=0, name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SansSerifCollection.ttf', index=0, name='Sans Serif Collection', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', index=0, name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', index=0, name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.268 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', index=0, name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', index=0, name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI Semilight', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', index=0, name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+2026-10-20 13:45:27.269 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', index=0, name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', index=0, name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI Semibold', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.270 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', index=0, name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', index=0, name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.271 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', index=0, name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', index=0, name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.272 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegUIVar.ttf', index=0, name='Segoe UI Variable', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', index=0, name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka Text', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+2026-10-20 13:45:27.273 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', index=0, name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', index=0, name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', index=0, name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.274 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=0, name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=1, name='MS UI Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=2, name='MS PGothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', index=0, name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', index=0, name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', index=0, name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.275 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.276 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.276 [MainThread] DEBUG matplotlib.font_manager:1695 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2026-10-20 13:45:27.293 [MainThread] DEBUG matplotlib.font_manager:1646 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=7.0.
+2026-10-20 13:45:27.293 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-BoldOblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymBol.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.294 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBolIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymReg.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymBol.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmmi10.ttf', index=0, name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.295 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Oblique.ttf', index=0, name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmsy10.ttf', index=0, name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralItalic.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-BoldItalic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.296 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmex10.ttf', index=0, name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono-Bold.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFourSymBol.ttf', index=0, name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBol.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\LastResortHE-Regular.ttf', index=0, name='Last Resort High-Efficiency', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmb10.ttf', index=0, name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniIta.ttf', index=0, name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmti10.ttf', index=0, name='cmti10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymReg.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.297 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Oblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-Bold.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneral.ttf', index=0, name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUni.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizFiveSymReg.ttf', index=0, name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerifDisplay.ttf', index=0, name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizOneSymReg.ttf', index=0, name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXNonUniBol.ttf', index=0, name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmr10.ttf', index=0, name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.298 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansMono.ttf', index=0, name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans-BoldOblique.ttf', index=0, name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmss10.ttf', index=0, name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\cmtt10.ttf', index=0, name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSansDisplay.ttf', index=0, name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizThreeSymReg.ttf', index=0, name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Bold.ttf', index=0, name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXSizTwoSymBol.ttf', index=0, name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\STIXGeneralBolIta.ttf', index=0, name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSerif-Italic.ttf', index=0, name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf', index=0, name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cour.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoepr.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbd.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.299 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiab.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanb.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriaz.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\sylfaen.ttf', index=0, name='Sylfaen', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriab.ttf', index=0, name='Cambria', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahoma.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuib.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\timesbi.ttf', index=0, name='Times New Roman', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comic.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.300 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailu.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=0, name='Nirmala UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=1, name='Nirmala UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=2, name='Nirmala UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=3, name='Nirmala Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=4, name='Nirmala Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Nirmala.ttc', index=5, name='Nirmala Text Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyh.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuisl.ttf', index=0, name='Segoe UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.301 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=0, name='SimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsun.ttc', index=1, name='NSimSun', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegoeIcons.ttf', index=0, name='Segoe Fluent Icons', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrii.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\webdings.ttf', index=0, name='Webdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoescb.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibril.ttf', index=0, name='Calibri Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanai.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 4.6863636363636365
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeui.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Gabriola.ttf', index=0, name='Gabriola', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ntailub.ttf', index=0, name='Microsoft New Tai Lue', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=900, stretch='normal', size='scalable')) = 11.525
+2026-10-20 13:45:27.302 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibli.ttf', index=0, name='Segoe UI Black', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaral.ttf', index=0, name='Candara Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candara.ttf', index=0, name='Candara', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constanz.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolai.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguihis.ttf', index=0, name='Segoe UI Historic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelUIsl.ttf', index=0, name='Leelawadee UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtextb.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanaz.ttf', index=0, name='Verdana', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 4.971363636363637
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelli.ttf', index=0, name='Corbel Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\impact.ttf', index=0, name='Impact', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.303 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\micross.ttf', index=0, name='Microsoft Sans Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.304 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbd.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\times.ttf', index=0, name='Times New Roman', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\javatext.ttf', index=0, name='Javanese Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SimsunExtG.ttf', index=0, name='SimSun-ExtG', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisb.ttf', index=0, name='Segoe UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrima.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 10.525
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguibl.ttf', index=0, name='Segoe UI Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbd.ttf', index=0, name='Courier New', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucbi.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.305 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=0, name='MingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=1, name='PMingLiU-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=2, name='MingLiU_HKSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mingliub.ttc', index=3, name='MingLiU_MSCS-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelb.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarai.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgun.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Inkfree.ttf', index=0, name='Ink Free', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\tahomabd.ttf', index=0, name='Tahoma', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuil.ttf', index=0, name='Segoe UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebucit.ttf', index=0, name='Trebuchet MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariali.ttf', index=0, name='Arial', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 7.413636363636363
+2026-10-20 13:45:27.306 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicbd.ttf', index=0, name='Comic Sans MS', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=0, name='Cambria', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambria.ttc', index=1, name='Cambria Math', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguiemj.ttf', index=0, name='Segoe UI Emoji', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\trebuc.ttf', index=0, name='Trebuchet MS', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\himalaya.ttf', index=0, name='Microsoft Himalaya', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\couri.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhbd.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constani.ttf', index=0, name='Constantia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SansSerifCollection.ttf', index=0, name='Sans Serif Collection', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoesc.ttf', index=0, name='Segoe Script', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ebrimabd.ttf', index=0, name='Ebrima', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspa.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\wingding.ttf', index=0, name='Wingdings', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.307 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugi.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\phagspab.ttf', index=0, name='Microsoft PhagsPa', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisym.ttf', index=0, name='Segoe UI Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consola.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mmrtext.ttf', index=0, name='Myanmar Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbi.ttf', index=0, name='Arial', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 7.698636363636363
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF.ttf', index=0, name='Sitka Text', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolab.ttf', index=0, name='Consolas', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palabi.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\symbol.ttf', index=0, name='Symbol', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuii.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbell.ttf', index=0, name='Corbel Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\constan.ttf', index=0, name='Constantia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.308 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=350, stretch='normal', size='scalable')) = 11.0975
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisli.ttf', index=0, name='Segoe UI Semilight', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\monbaiti.ttf', index=0, name='Mongolian Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial', style='normal', variant='normal', weight=900, stretch='normal', size='scalable')) = 6.888636363636364
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\ariblk.ttf', index=0, name='Arial Black', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\pala.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgia.ttf', index=0, name='Georgia', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=350, stretch='normal', size='scalable')) = 10.0975
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothR.ttc', index=1, name='Yu Gothic UI Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\gadugib.ttf', index=0, name='Gadugi', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelawUI.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.309 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdana.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 3.6863636363636365
+2026-10-20 13:45:27.310 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiai.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.310 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\mvboli.ttf', index=0, name='MV Boli', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.310 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candaraz.ttf', index=0, name='Candara', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.310 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=600, stretch='normal', size='scalable')) = 11.24
+2026-10-20 13:45:27.310 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguisbi.ttf', index=0, name='Segoe UI Semibold', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI', style='normal', variant='normal', weight=600, stretch='normal', size='scalable')) = 10.24
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothB.ttc', index=2, name='Yu Gothic UI Semibold', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbel.ttf', index=0, name='Corbel', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\l_10646.ttf', index=0, name='Lucida Sans Unicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framd.ttf', index=0, name='Franklin Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\courbi.ttf', index=0, name='Courier New', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 13:45:27.311 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\seguili.ttf', index=0, name='Segoe UI Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeprb.ttf', index=0, name='Segoe Print', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=0, name='Microsoft YaHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyhl.ttc', index=1, name='Microsoft YaHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibriz.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\framdit.ttf', index=0, name='Franklin Gothic Medium', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri', style='italic', variant='normal', weight=300, stretch='normal', size='scalable')) = 11.145
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrili.ttf', index=0, name='Calibri Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\consolaz.ttf', index=0, name='Consolas', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\bahnschrift.ttf', index=0, name='Bahnschrift', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comici.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.312 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjh.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibri.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbelz.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segoeuiz.ttf', index=0, name='Segoe UI', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SegUIVar.ttf', index=0, name='Segoe UI Variable', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\cambriai.ttf', index=0, name='Cambria', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\corbeli.ttf', index=0, name='Corbel', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarali.ttf', index=0, name='Candara Light', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\segmdl2.ttf', index=0, name='Segoe MDL2 Assets', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taileb.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\LeelaUIb.ttf', index=0, name='Leelawadee UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.313 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\SitkaVF-Italic.ttf', index=0, name='Sitka Text', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\verdanab.ttf', index=0, name='Verdana', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 3.9713636363636367
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunsl.ttf', index=0, name='Malgun Gothic Semilight', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\calibrib.ttf', index=0, name='Calibri', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=0, name='Microsoft JhengHei Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=290, stretch='normal', size='scalable')) = 10.1545
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhl.ttc', index=1, name='Microsoft JhengHei UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arialbd.ttf', index=0, name='Arial', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 6.698636363636363
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=500, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=0, name='Yu Gothic Medium', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothM.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\arial.ttf', index=0, name='Arial', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 6.413636363636363
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palab.ttf', index=0, name='Palatino Linotype', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.314 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\simsunb.ttf', index=0, name='SimSun-ExtB', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\georgiaz.ttf', index=0, name='Georgia', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=0, name='MS Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=1, name='MS UI Gothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msgothic.ttc', index=2, name='MS PGothic', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\malgunbd.ttf', index=0, name='Malgun Gothic', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msyi.ttf', index=0, name='Microsoft Yi Baiti', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\lucon.ttf', index=0, name='Lucida Console', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=0, name='Yu Gothic Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI', style='normal', variant='normal', weight=300, stretch='normal', size='scalable')) = 10.145
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\YuGothL.ttc', index=1, name='Yu Gothic UI Light', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\comicz.ttf', index=0, name='Comic Sans MS', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\taile.ttf', index=0, name='Microsoft Tai Le', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\Candarab.ttf', index=0, name='Candara', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.315 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=0, name='Microsoft JhengHei', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.316 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\msjhbd.ttc', index=1, name='Microsoft JhengHei UI', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+2026-10-20 13:45:27.316 [MainThread] DEBUG matplotlib.font_manager:1658 - findfont: score(FontEntry(fname='C:\\Windows\\Fonts\\palai.ttf', index=0, name='Palatino Linotype', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+2026-10-20 13:45:27.316 [MainThread] DEBUG matplotlib.font_manager:1695 - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=7.0 to DejaVu Sans ('C:\\Users\\user001\\connect_four_python\\v1.0.0\\myenv\\Lib\\site-packages\\matplotlib\\mpl-data\\fonts\\ttf\\DejaVuSans.ttf') with score of 0.050000.
+2026-10-20 13:45:35.804 [MainThread] INFO __main__:45 - ============================================================
+2026-10-20 13:45:35.804 [MainThread] INFO __main__:46 - Connect Four  --  exited normally
+2026-10-20 13:45:35.804 [MainThread] INFO __main__:47 - ============================================================
